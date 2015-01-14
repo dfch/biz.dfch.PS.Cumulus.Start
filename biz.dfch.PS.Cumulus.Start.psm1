@@ -35,11 +35,27 @@ if( Test-Path -Path $ManifestPathAndFile)
 	}
 }
 
+# 
+# Copyright 2014-2015 Ronald Rink, d-fens GmbH
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+# http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# 
+
 # SIG # Begin signature block
 # MIIW3AYJKoZIhvcNAQcCoIIWzTCCFskCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUe5Mkgr/lPt9Njv8Ikvfk3Y66
-# ElGgghGYMIIEFDCCAvygAwIBAgILBAAAAAABL07hUtcwDQYJKoZIhvcNAQEFBQAw
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUMi56LFpPTA1zpToUBWJ1RQVk
+# slygghGYMIIEFDCCAvygAwIBAgILBAAAAAABL07hUtcwDQYJKoZIhvcNAQEFBQAw
 # VzELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExEDAOBgNV
 # BAsTB1Jvb3QgQ0ExGzAZBgNVBAMTEkdsb2JhbFNpZ24gUm9vdCBDQTAeFw0xMTA0
 # MTMxMDAwMDBaFw0yODAxMjgxMjAwMDBaMFIxCzAJBgNVBAYTAkJFMRkwFwYDVQQK
@@ -137,25 +153,25 @@ if( Test-Path -Path $ManifestPathAndFile)
 # bnYtc2ExJzAlBgNVBAMTHkdsb2JhbFNpZ24gQ29kZVNpZ25pbmcgQ0EgLSBHMgIS
 # ESFgd9/aXcgt4FtCBtsrp6UyMAkGBSsOAwIaBQCgeDAYBgorBgEEAYI3AgEMMQow
 # CKACgAChAoAAMBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisGAQQBgjcC
-# AQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3DQEJBDEWBBQ/zq3Cdp2DgNkJJcgx
-# cL++WStiejANBgkqhkiG9w0BAQEFAASCAQC7lzLNPopUTQiEvKsJv+Y8KLxgpRbM
-# wxFuZTEwJRsO9m+HRsLi9i2yhyUaNFJ/CSDRunsA0mipD1YQj8dUvW3FFwdcYYLa
-# G0dlLbAUY8RfTfoGtxyKhqTojCDsnlzs1NCrRGK5hU7tE28LtMQmhl2WnYG3f7Ua
-# jAD9EeyIFoiT9TQbDB/NhEk/cmOzkPDH/jQdRuh7kDkEuzDtrSAxNqaHEPQzGoy/
-# EnWSeMSAq/lW1YSIiIgjhy6y0/q/9tgZu6it2cvYiksiHjwdof36G6hoKVL0fk/v
-# UDV1KSYTlQeR11ws3MeswDuL4ILk/5EUw89xNVTdFQRghV6cPpDmmQhwoYICojCC
+# AQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3DQEJBDEWBBSj4K1E2+zOEIU0tV3j
+# NfqwSiP6qDANBgkqhkiG9w0BAQEFAASCAQAZsXf0aacCj6cLWYzvnDjw2+NDj/P7
+# sdr7z/X45mt+vH54QQSgeYqAAcN+cXhiHPT/nK8Gkfevda3VpXzmNaUsRUigt826
+# uYgWWr7IuLr3RqUgGA6gqN89GiVzkAwjKbXwnt23R0YCsNFkIC7S5HNsEZAHwS7S
+# P63QBE+Ii90STynq88t2xi2fFLDfrrMkj/F4WX8ZDg+W++ZKfsaG2FsszlpmoTRb
+# BrjJl5xRo2MYQdw1EYplcImwCBEO+9w1idN6nop3IjweGcLGXueEfj85FO3CjMhB
+# 5qlBeWGBW0cnQfw9sr+zzcaoYyqAYs0e6TAP+REJhaZ/38gvIgWBEy6XoYICojCC
 # Ap4GCSqGSIb3DQEJBjGCAo8wggKLAgEBMGgwUjELMAkGA1UEBhMCQkUxGTAXBgNV
 # BAoTEEdsb2JhbFNpZ24gbnYtc2ExKDAmBgNVBAMTH0dsb2JhbFNpZ24gVGltZXN0
 # YW1waW5nIENBIC0gRzICEhEhQFwfDtJYiCvlTYaGuhHqRTAJBgUrDgMCGgUAoIH9
-# MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE0MTIw
-# MzIwMjQ1M1owIwYJKoZIhvcNAQkEMRYEFB3xzZM7D/a48NHonln0m4DpVmJiMIGd
+# MBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE1MDEx
+# NDA3MTEzOVowIwYJKoZIhvcNAQkEMRYEFFZvIksNgy2CbittUEUjKHZPXoSIMIGd
 # BgsqhkiG9w0BCRACDDGBjTCBijCBhzCBhAQUjOafUBLh0aj7OV4uMeK0K947NDsw
 # bDBWpFQwUjELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2Ex
 # KDAmBgNVBAMTH0dsb2JhbFNpZ24gVGltZXN0YW1waW5nIENBIC0gRzICEhEhQFwf
-# DtJYiCvlTYaGuhHqRTANBgkqhkiG9w0BAQEFAASCAQBOeEJ9iTx/vvxrijDqjNt3
-# +6Db6J5r9IxTJzS3pjxvCmVguXQrDzaBXCdbpZfK+ZBtDF94ih8a9aUoWk+KSqxn
-# jBCzYZxWCcAU2ijm6Td1TnHplvdrlWhTnipOG9DvaP9gm61cPQUC1Cirw0w/mbfD
-# Ah7MFgxuulAuc8JjCDv1jmv/8DaBKEIZKnOBrPhidbIf7Cao+xw8ZzPJDoUYpf2Y
-# irzuLOJ0irk3V7kObMVgKVpT30w3RwX5pQNEWYqXTuwsa5qdwUxERcGTEwRl+yas
-# DdWk+RegsboukoTnGCIg4QukHY8uw7Jf5zDzDTKcgJpNIbwkTbO7xa3uK9vYPxMA
+# DtJYiCvlTYaGuhHqRTANBgkqhkiG9w0BAQEFAASCAQCIrelyq4Dp/2+tgS4svv39
+# u+VzSndRbHB+wogdgMdZ5YfnQTSHC7Ga9XO1nX/DokpTg0DETV4DCeNWMGkTiCxD
+# dIXIpi+N7D5P1z80yao8HIt66rZYJL3TMqQlygFQ9yrB8NI3bUYkdhU0MSyUpe5W
+# DmiupPoh5fIV7ZS29R4f5lyvE74PolQTg/isCEQU8+FuuhoOsIT1rytBsnHBeqV4
+# 350PnDBzAjY8VCqG0iXAMaoQoLLoqX1BktKnPmnT8YuxGzYUw4b2Byg1MmwXJAAw
+# Y9xw6vxJVzu1jSbqD4U1enqEl6SAILHcQFNIFFuG+VMHEEFHsS8rMtcUb1cbkH1P
 # SIG # End signature block
